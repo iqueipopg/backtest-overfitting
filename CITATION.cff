@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "backtest-overfitting: Deflated Sharpe Ratio and Probability of Backtest Overfitting on a strategy zoo"
+type: software
+authors:
+  - family-names: "Queipo de Llano"
+    given-names: "Ignacio"
+version: 0.1.0
+date-released: 2026-09-19
+repository-code: "https://github.com/iqueipopg/backtest-overfitting"
+license: MIT
