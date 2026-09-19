@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bto"
-version = "0.1.0"
+version = "0.2.0"
 description = "Deflated Sharpe Ratio and Probability of Backtest Overfitting on a strategy zoo"
 readme = "README.md"
 license = { text = "MIT" }
@@ -21,3 +21,11 @@ packages = ["bto"]
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "B", "UP"]
+ignore = ["E731"]

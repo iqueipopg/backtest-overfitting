@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "ticker": "SPY",
   "sample_start": "1995-12-29",
   "sample_end": "2026-09-18",
@@ -7,6 +7,7 @@
   "years": 30.67,
   "n_trials": 147,
   "n_trials_effective": 2.45,
+  "n_clusters": 2,
   "cost_bps": 0.0,
   "best_trial": "TSMOM(180)",
   "best_sharpe_annual": 0.522,
@@ -19,6 +20,8 @@
   "expected_max_sharpe_annual_effN": 0.095,
   "dsr_rawN": 0.5756,
   "dsr_effN": 0.9904,
+  "expected_max_sharpe_annual_clusters": 0.095,
+  "dsr_clusters": 0.9904,
   "min_track_record_years_rawN": 2280.7,
   "min_track_record_years_effN": 15.2,
   "min_backtest_years_rawN": 26.1,
@@ -28,5 +31,14 @@
   "pbo": 0.0481,
   "prob_oos_loss": 0.0039,
   "degradation_slope": -0.711,
-  "degradation_intercept_annual": 0.819
+  "degradation_intercept_annual": 0.819,
+  "holdout_split": 0.7,
+  "holdout_split_date": "2017-06-28",
+  "holdout_is_best_trial": "TSMOM(180)",
+  "holdout_is_sharpe_annual": 0.532,
+  "holdout_oos_sharpe_annual": 0.496,
+  "holdout_oos_rank": 0.993,
+  "holdout_oos_psr_vs_zero": 0.9314,
+  "holdout_oos_median_trial_sharpe_annual": 0.233,
+  "holdout_oos_buy_and_hold_sharpe_annual": 0.85
 }

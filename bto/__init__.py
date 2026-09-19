@@ -18,6 +18,10 @@ Bailey, D. H., Borwein, J. M., Lopez de Prado, M. & Zhu, Q. J. (2017).
     The Probability of Backtest Overfitting. Journal of Computational Finance, 20(4).
 """
 
+from .audit import audit_trials
+from .clusters import cluster_trials
+from .cscv import CSCVResult, cscv
+from .holdout import HoldoutResult, holdout
 from .metrics import annualize_sharpe, higher_moments, sharpe_ratio
 from .psr import (
     deflated_sharpe_ratio,
@@ -27,7 +31,7 @@ from .psr import (
     min_track_record_length,
     probabilistic_sharpe_ratio,
 )
-from .cscv import CSCVResult, cscv
+from .simulation import simulate_max_sharpe
 from .strategies import build_trials, ma_crossover, ts_momentum
 
 __all__ = [
@@ -45,6 +49,11 @@ __all__ = [
     "ma_crossover",
     "ts_momentum",
     "build_trials",
+    "cluster_trials",
+    "holdout",
+    "HoldoutResult",
+    "simulate_max_sharpe",
+    "audit_trials",
 ]
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"

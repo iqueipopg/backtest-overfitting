@@ -29,9 +29,7 @@ def _apply_position(position: pd.Series, asset_returns: pd.Series, cost_bps: flo
     return pos * asset_returns - turnover * cost_bps / 1e4
 
 
-def ma_crossover(
-    prices: pd.Series, fast: int, slow: int, cost_bps: float = 0.0
-) -> pd.Series:
+def ma_crossover(prices: pd.Series, fast: int, slow: int, cost_bps: float = 0.0) -> pd.Series:
     """Long when the fast SMA is above the slow SMA, short otherwise."""
     if fast >= slow:
         raise ValueError("fast window must be shorter than slow window")

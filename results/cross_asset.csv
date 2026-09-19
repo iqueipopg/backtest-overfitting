@@ -1,0 +1,6 @@
+ticker,sample_start,years,n_trials,n_trials_effective,n_clusters,best_trial,best_sharpe_annual,buy_and_hold_sharpe_annual,psr_vs_zero,dsr_rawN,dsr_clusters,dsr_effN,pbo,holdout_is_best_trial,holdout_is_sharpe_annual,holdout_oos_sharpe_annual,holdout_oos_rank,holdout_oos_buy_and_hold_sharpe_annual
+SPY,1995-12-29,30.67,147,2.45,2,TSMOM(180),0.522,0.614,0.9979,0.5756,0.9904,0.9904,0.0481,TSMOM(180),0.532,0.496,0.993,0.85
+QQQ,2000-03-07,26.48,147,2.52,2,"MA(50,200)",0.467,0.423,0.9915,0.74,0.9797,0.9663,0.2038,TSMOM(150),0.435,0.147,0.291,0.851
+EFA,2002-08-30,24.01,147,2.26,2,TSMOM(120),0.392,0.457,0.9721,0.7071,0.9501,0.9501,0.6828,"MA(15,80)",0.496,-0.244,0.047,0.598
+TLT,2003-07-29,23.11,147,2.64,2,"MA(40,60)",0.442,0.296,0.9834,0.7172,0.9661,0.9486,0.3654,"MA(30,80)",0.514,-0.158,0.189,-0.253
+GLD,2005-11-16,20.8,147,2.43,2,"MA(40,120)",0.533,0.652,0.9921,0.8034,0.9826,0.9826,0.5515,"MA(50,150)",0.475,0.516,0.554,0.886
